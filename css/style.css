@@ -1,0 +1,539 @@
+a {
+  text-decoration: none;
+  color: white;
+}
+.w-90 {
+  width: 90%;
+}
+
+.my-nav {
+  background-color: rgba(0, 0, 0, 0.842) !important;
+}
+.my-nav .navbar-brand {
+  font-family: "Montserrat", serif;
+  font-weight: 800;
+  font-size: 18px;
+}
+.my-nav .nav-item {
+  margin: 0 10px;
+}
+.my-nav .nav-item a {
+  padding-bottom: 0px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+.my-nav .active::after {
+  content: "";
+  background-color: white;
+  position: absolute;
+  width: 80%;
+  height: 1.5px;
+  top: 100%;
+  left: 10%;
+  transition: all 0.6s;
+}
+
+.home {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.618), rgba(0, 0, 0, 0.618)),
+    url("../images/bg.jpg");
+  background-size: cover;
+  /* background-position:top left; */
+  background-attachment: fixed;
+  font-family: "Montserrat", serif;
+}
+.home .text-anim {
+  font-size: 60px;
+  line-height: 72px;
+  font-weight: 400;
+  color: white;
+}
+.home .text-anim::after {
+  content: "";
+  border-right: 4px solid white;
+}
+.home .container h1 {
+  color: white;
+  font-size: 50px;
+  line-height: 55px;
+  font-weight: 800;
+}
+.home .am {
+  font-size: 60px;
+  font-weight: 200;
+  color: white;
+}
+.home .icons .item {
+  font-size: 14px;
+}
+
+.about {
+  padding-top: 100px;
+  padding-bottom: 70px;
+}
+.about .dots {
+  width: 90%;
+  height: 76%;
+  background-image: url(../images/dots.png);
+  position: absolute;
+  top: 31%;
+  left: -6%;
+  z-index: -1;
+}
+.about .right .title h2 {
+  font-family: "Montserrat", serif;
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 33px;
+  color: #343434;
+}
+.about .right .title span {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #999999;
+  letter-spacing: 2px;
+}
+.about .right p {
+  font-family: "Poppins", sans-serif;
+  color: #748182;
+  font-size: 14.6px;
+  font-weight: 400;
+  line-height: 24px;
+  padding: 25px 0;
+  font-stretch: 100%;
+}
+.about .right p span {
+  color: #748182;
+  font-weight: 700;
+}
+.about .progress {
+  height: 25px;
+  box-shadow: 0px 6px 6px 0px rgba(0, 0, 0, 0.063) inset;
+}
+.about button {
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  padding: 10px 30px;
+  transition: all 0.4s;
+}
+.about .cv:hover {
+  background-color: white !important;
+  color: black !important;
+}
+.about .contact:hover {
+  background-color: black !important;
+  color: white !important;
+}
+.about .skills .info {
+  font-family: "Montserrat", serif;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.services {
+  background-color: #f7f7f7;
+  padding-top: 100px !important;
+  padding-bottom: 70px !important;
+}
+.services .title h2 {
+  color: #343434;
+  font-family: "Montserrat", serif;
+  font-size: 40px;
+  line-height: 44px;
+  font-weight: 900;
+  position: relative;
+}
+.services .title .dots {
+  width: 15%;
+  height: 76%;
+  background-image: url(../images/dots.png);
+  position: absolute;
+  top: 31%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.services .container .cardi .inner {
+  padding: 50px 20px !important;
+  -webkit-box-shadow: 1px 1px 18px -11px rgba(115, 113, 115, 1);
+  -moz-box-shadow: 1px 1px 18px -11px rgba(115, 113, 115, 1);
+  box-shadow: 1px 1px 18px -11px rgba(115, 113, 115, 1);
+}
+.services .container .cardi .card-body h5 {
+  font-family: "Montserrat", serif;
+  font-size: 18px;
+  line-height: 19.8px;
+  font-weight: 800;
+}
+.services .container .cardi .card-body p {
+  color: #748182;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  line-height: 22.4px;
+  font-weight: 400;
+  word-spacing: 2px;
+}
+.services .container .cardi .icon {
+  width: 80px;
+  height: 80px;
+  background-color: #f7f7f7;
+  transition: all 0.5s;
+}
+.services .container .cardi:hover .icon {
+  background-color: black;
+}
+.services .container .cardi:hover .icon i {
+  transition: all 0.5s;
+}
+.services .container .cardi:hover .icon i {
+  color: white;
+}
+
+.portfolio {
+  padding-top: 100px !important;
+  padding-bottom: 70px !important;
+}
+.portfolio .tabs a {
+  color: black !important;
+}
+.portfolio .title h2 {
+  color: #343434;
+  font-family: "Montserrat", serif;
+  font-size: 40px;
+  line-height: 44px;
+  font-weight: 900;
+  position: relative;
+}
+.portfolio .title .dots {
+  width: 15%;
+  height: 76%;
+  background-image: url(../images/dots.png);
+  position: absolute;
+  top: 31%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.portfolio .container .cardi .inner {
+  -webkit-box-shadow: 1px 1px 18px -11px rgba(115, 113, 115, 1);
+  -moz-box-shadow: 1px 1px 18px -11px rgba(115, 113, 115, 1);
+  box-shadow: 1px 1px 18px -11px rgba(115, 113, 115, 1);
+}
+.portfolio .container .tab-content .cardi .layer {
+  background-color: rgba(255, 255, 255, 0.997);
+  position: absolute;
+  width: 97%;
+  height: 97%;
+  top: 5%;
+  left: 1.5%;
+  opacity: 0;
+  transition: all 0.5s;
+}
+.portfolio .container .tab-content .cardi:hover .layer {
+  top: 1.5%;
+  opacity: 1;
+}
+.portfolio .container .tab-content .cardi .layer h3 {
+  font-family: "Montserrat", serif;
+  font-size: 12px;
+  line-height: 13.2px;
+  font-weight: 700;
+}
+.portfolio .container .tab-content .cardi .layer .icons .item {
+  width: 30px;
+  height: 30px;
+  color: white;
+  transition: all 0.4s;
+  cursor: pointer;
+}
+.portfolio .container .tab-content .cardi .layer .icons .item:hover {
+  background-color: white !important;
+  color: black;
+}
+
+.testimonials {
+  background-color: #f7f7f7;
+}
+.testimonials .title h2 {
+  color: #343434;
+  font-family: "Montserrat", serif;
+  font-size: 40px;
+  line-height: 44px;
+  font-weight: 900;
+  position: relative;
+}
+.testimonials .title .dots {
+  width: 20%;
+  height: 76%;
+  background-image: url(../images/dots.png);
+  position: absolute;
+  top: 31%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.testimonials button {
+  background-color: #807d7dd6 !important;
+  height: 10px !important;
+  width: 10px !important;
+  margin: 5px !important;
+}
+.testimonials .carousel-inner .carousel-item .image img {
+  width: 90px;
+  height: 90px;
+}
+.testimonials .carousel-inner .carousel-item p {
+  font-family: "Poppins", sans-serif;
+  color: #748182;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  word-spacing: 2px;
+}
+.testimonials .carousel-inner .carousel-item h3 {
+  font-family: "Montserrat", serif;
+  color: #343434;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 17.6px;
+}
+.testimonials .carousel-inner .carousel-item span {
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  line-height: 17px;
+  font-weight: 600;
+  color: #888888;
+}
+
+.info .card .icon i {
+  font-size: 30px;
+  color: #343434;
+}
+.info .card h5 {
+  font-family: "Montserrat", serif;
+  font-size: 30px;
+  line-height: 33px;
+  font-weight: 900;
+  color: #343434;
+}
+.info .card p {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 600;
+  color: #748182;
+}
+
+.team {
+  background-color: #f7f7f7;
+}
+.team .title h2 {
+  color: #343434;
+  font-family: "Montserrat", serif;
+  font-size: 40px;
+  line-height: 44px;
+  font-weight: 900;
+  position: relative;
+}
+.team .title .dots {
+  width: 15%;
+  height: 76%;
+  background-image: url(../images/dots.png);
+  position: absolute;
+  top: 31%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.team .container .image .layer .icons .item {
+  width: 40px;
+  height: 40px;
+  color: white;
+  cursor:pointer;
+  transition: all 0.4s;
+}
+.team .image .layer {
+  background-color: rgba(255, 255, 255, 0.952);
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  top: 25%;
+  left: 25%;
+  opacity: 0;
+  transition: all 0.4s;
+}
+.team .container .item:hover .layer {
+  width: 97%;
+  height: 97%;
+  top: 1.5%;
+  left: 1.5%;
+  opacity: 1;
+  transform: rotateY("180 deg");
+}
+.team .container .item .image img {
+  transition: all 0.4s;
+}
+.team .container .item .image:hover img {
+  transform: scale(1.2);
+}
+.team .card-body {
+  background-color: rgb(88, 87, 87);
+}
+.team .card-body .down h3 {
+  font-family: "Montserrat", serif;
+  font-size: 25px;
+  line-height: 27.5px;
+  font-weight: 500;
+}
+.team .card-body .down p {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 22px;
+  line-height: 22px;
+  font-weight: 700;
+}
+
+.team .container .image .layer .icons .item:hover
+{
+  color: black;
+  background-color: white !important;
+}
+
+.contact .title h2 {
+  color: #343434;
+  font-family: "Montserrat", serif;
+  font-size: 40px;
+  line-height: 44px;
+  font-weight: 900;
+  position: relative;
+}
+.contact .title .dots {
+  width: 15%;
+  height: 76%;
+  background-image: url(../images/dots.png);
+  position: absolute;
+  top: 31%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.contact .container .cardi .icon {
+  width: 60px;
+  height: 60px;
+  background-color: #f4f4f4;
+  font-size: 25px;
+  transition: all 0.4s;
+}
+.contact .container .cardi:hover .icon {
+  background-color: black;
+  color: white;
+}
+.contact .container .cardi:hover .icon i {
+  transition: all 0.4s;
+}
+.contact .container .cardi:hover .icon i {
+  color: white;
+}
+.contact .container .card-body h6 {
+  font-family: "Montserrat", serif;
+  font-weight: 700;
+}
+.contact .container .card-body p {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #748182;
+}
+.contact .container {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.contact .message input,
+.contact .message textarea {
+  background-color: #f4f4f4;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  border: none;
+  outline: none !important;
+  box-shadow: none;
+}
+
+.contact .message button {
+  background-color: black;
+  color: white;
+  padding: 10px 40px;
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  border: 1px solid black;
+  transition: all 0.4s;
+}
+.contact .message button:hover {
+  background-color: white;
+  color: black;
+}
+
+.foot {
+  background-color: black;
+}
+.foot .container {
+  padding: 31px 0;
+}
+.foot span {
+  font-family: "Poppins", sans-serif;
+  color: #748182;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+  word-spacing: 2px;
+}
+
+@media screen and (max-width: 576px) {
+  .testimonials .carousel-inner .inner {
+    width: 100% !important;
+    padding: 0% !important;
+  }
+  .testimonials .carousel-inner .inner p {
+    width: 100% !important;
+    padding-left: 0% !important;
+    padding-right: 0% !important;
+  }
+  .testimonials .carousel-indicators {
+    position: absolute;
+    bottom: -10%;
+  }
+  .contact .email {
+    margin-top: 15px !important;
+  }
+  .team {
+    padding-top: 50px !important;
+  }
+  .home .text-anim {
+    font-size: 30px;
+  }
+
+  .home .am {
+    font-size: 30px;
+  }
+  .contact .container .row {
+    padding: 0;
+  }
+}
+@media screen and (max-width: 992px) {
+  .about .dots {
+    top: 27.5%;
+    left: -4%;
+  }
+  .contact .container {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .home .text-anim {
+    font-size: 44px;
+  }
+  .home .am {
+    font-size: 44px;
+  }
+}
